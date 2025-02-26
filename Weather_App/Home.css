@@ -1,0 +1,128 @@
+body{
+    margin: 0 0;
+    padding: 0 0;
+    background-color: rgb(1, 1, 25);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.template{
+    border: 00;
+    margin: 0;
+    padding: 40px 35px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    align-items: center;
+    width: 90%;
+    max-width: 450px;
+    margin: 100px auto 0;
+    color: #fff;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6px;
+}
+.search input{
+    width: 100%;
+    border-radius: 50px;
+    outline: 0;
+    border: none;
+    padding-left: 30px;
+    flex: 1;
+    margin-right: 16px;
+    height: 60px;
+    font-size: 18px;
+}
+.search button{
+    width: 60px;
+    height: 60px;
+    outline: 0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.search button img{
+    width: 25px;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 70px;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+}
+
+.details img{
+    width: 55px;
+}
+
+.text{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.text h3{
+    font-size: 30px;
+    padding-top: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 200;
+    font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif';
+}
+
+.text h4{
+    font-size: 18px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.weather h1{
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.weather h2{
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.weather{
+    display: none;
+}
+
+.invalid{
+    border: 0;
+    margin: 0 0;
+    margin-top: 30px;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    display: none;
+}
+
+.offline{
+    border: 0;
+    margin: 0 0;
+    margin-top: 30px;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    display: none;
+}
